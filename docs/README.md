@@ -63,8 +63,8 @@ WEB版の方を使いたい場合は、メインプログラムのtts.initのと
 デフォルトでは1人 vs スマホでの会話モードになっていますが、2人のAIロボット同士で会話させることもできます。
 1. 2台のM5Stack Core2 を用意する。
 2. 四国めたんの画像を変換する。（サンプルで入ってるバッチファイルで一括変換できると思います）
-3. zundachan.ino の singleMode=ture; にする。
+3. zundachan.ino の singleMode=false; にする。
 4. CharacterConfig.h の CHARACTER_NO を0（ずんだもん）と1（四国めたん）にして、それぞれコンパイルして書き込む。
-5. 起動したらスマホやPCなどから http://zunda.local/ にアクセスして、第三者として話題を提供する。
+5. 起動したらスマホやPCなどから http://zunda.local/ にアクセスして、第三者として話題を提供する。 http://metan.local/ にアクセスすることも可能。
 
 これでAI同士が勝手に喋ってくれると思います。
